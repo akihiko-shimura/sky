@@ -1,14 +1,13 @@
 # -*- coding: utf-8 -*-
 
-from setuptools import setup
-from setuptools import find_packages
+from setuptools import find_packages, setup
 
 
 def main():
 
     setup(
         name='sky',
-        version='0.0.6',
+        version='0.1.0',
         zip_safe=False,
         packages=find_packages() )
 
